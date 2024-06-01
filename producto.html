@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="producto.css">
+</head>
+<body class="inicio">
+    <header>
+        <svg class="list-icon mobile" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.25 30C6.25 29.6685 6.3817 29.3505 6.61612 29.1161C6.85054 28.8817 7.16848 28.75 7.5 28.75H32.5C32.8315 28.75 33.1495 28.8817 33.3839 29.1161C33.6183 29.3505 33.75 29.6685 33.75 30C33.75 30.3315 33.6183 30.6495 33.3839 30.8839C33.1495 31.1183 32.8315 31.25 32.5 31.25H7.5C7.16848 31.25 6.85054 31.1183 6.61612 30.8839C6.3817 30.6495 6.25 30.3315 6.25 30ZM6.25 20C6.25 19.6685 6.3817 19.3505 6.61612 19.1161C6.85054 18.8817 7.16848 18.75 7.5 18.75H32.5C32.8315 18.75 33.1495 18.8817 33.3839 19.1161C33.6183 19.3505 33.75 19.6685 33.75 20C33.75 20.3315 33.6183 20.6495 33.3839 20.8839C33.1495 21.1183 32.8315 21.25 32.5 21.25H7.5C7.16848 21.25 6.85054 21.1183 6.61612 20.8839C6.3817 20.6495 6.25 20.3315 6.25 20ZM6.25 10C6.25 9.66848 6.3817 9.35054 6.61612 9.11612C6.85054 8.8817 7.16848 8.75 7.5 8.75H32.5C32.8315 8.75 33.1495 8.8817 33.3839 9.11612C33.6183 9.35054 33.75 9.66848 33.75 10C33.75 10.3315 33.6183 10.6495 33.3839 10.8839C33.1495 11.1183 32.8315 11.25 32.5 11.25H7.5C7.16848 11.25 6.85054 11.1183 6.61612 10.8839C6.3817 10.6495 6.25 10.3315 6.25 10Z" fill="white"/>
+          </svg>
+        <div class="contenedor-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                <g clip-path="url(#clip0_2_5)">
+                  <path d="M16.5 2.14331L32.5 29.8566H0.5L16.5 2.14331Z" fill="white"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_2_5">
+                    <rect width="32" height="32" fill="white" transform="translate(0.5)"/>
+                  </clipPath>
+                </defs>
+              </svg>
+              <h1 class="nombre">Nile</h1>
+        </div>
+
+        <nav class="contenedor-menu desktop">
+            <a class="item-menu" href="/index.html">Inicio</a>
+            <a class="item-menu" href="#">Categorias</a>
+            <a class="item-menu" href="#">Mi cuenta</a>
+        </nav>
+        <div class="contenedor-tail">
+            <svg class="person-icon tablet icono-header" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <path d="M7.5 35C7.5 35 5 35 5 32.5C5 30 7.5 22.5 20 22.5C32.5 22.5 35 30 35 32.5C35 35 32.5 35 32.5 35H7.5ZM20 20C21.9891 20 23.8968 19.2098 25.3033 17.8033C26.7098 16.3968 27.5 14.4891 27.5 12.5C27.5 10.5109 26.7098 8.60322 25.3033 7.1967C23.8968 5.79018 21.9891 5 20 5C18.0109 5 16.1032 5.79018 14.6967 7.1967C13.2902 8.60322 12.5 10.5109 12.5 12.5C12.5 14.4891 13.2902 16.3968 14.6967 17.8033C16.1032 19.2098 18.0109 20 20 20Z" fill="white"/>
+              </svg>
+            <svg class="bag-icon icono-header" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <path d="M20 2.5C21.6576 2.5 23.2473 3.15848 24.4194 4.33058C25.5915 5.50269 26.25 7.0924 26.25 8.75V10H13.75V8.75C13.75 7.0924 14.4085 5.50269 15.5806 4.33058C16.7527 3.15848 18.3424 2.5 20 2.5ZM28.75 10V8.75C28.75 6.42936 27.8281 4.20376 26.1872 2.56282C24.5462 0.921872 22.3206 0 20 0C17.6794 0 15.4538 0.921872 13.8128 2.56282C12.1719 4.20376 11.25 6.42936 11.25 8.75V10H2.5V35C2.5 36.3261 3.02678 37.5979 3.96447 38.5355C4.90215 39.4732 6.17392 40 7.5 40H32.5C33.8261 40 35.0979 39.4732 36.0355 38.5355C36.9732 37.5979 37.5 36.3261 37.5 35V10H28.75ZM5 12.5H35V35C35 35.663 34.7366 36.2989 34.2678 36.7678C33.7989 37.2366 33.163 37.5 32.5 37.5H7.5C6.83696 37.5 6.20107 37.2366 5.73223 36.7678C5.26339 36.2989 5 35.663 5 35V12.5Z" fill="white"/>
+              </svg>
+        </div>
+       
+    </header>
+    <main class="contenido">
+        <div class="wrapper">
+            <img id="imagen-producto" src="images/muestra.png" alt="Zapatilla" class="imagen-producto">
+        </div>
+        
+        <div class="contenedor-info-producto">
+            <div class="top-info-producto">
+                <h1 id="nombre-producto"></h1>
+                <div class="favorito-card">
+                    <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.0002 4.39686L11.853 3.21767C9.16024 0.449676 4.22266 1.40487 2.44026 4.88486C1.60347 6.52166 1.41467 8.88485 2.94266 11.9008C4.41466 14.8048 7.47705 18.2832 13.0002 22.072C18.5234 18.2832 21.5842 14.8048 23.0578 11.9008C24.5858 8.88325 24.3986 6.52166 23.5602 4.88486C21.7778 1.40487 16.8402 0.448076 14.1474 3.21607L13.0002 4.39686ZM13.0002 24C-11.5325 7.78885 5.44665 -4.86391 12.7186 1.82887C12.8146 1.9174 12.9085 2.0086 13.0002 2.10247C13.0904 2.00801 13.1843 1.91727 13.2818 1.83047C20.5522 -4.86711 37.533 7.78725 13.0002 24Z" fill="black"/>
+                    </svg>  
+                </div>
+            </div>
+            <p id="precio-producto" class="precio-card"></p>
+            <a class="boton-card" href="#">Agregar al carrito</a>
+            <div class="info-adicional" id="descripcion-producto">
+                <p class="encabezado-info">Descripcion</p>
+                
+            </div>
+        </div>
+    </main>
+    <script src="producto.js"></script>
+</body>
+</html>

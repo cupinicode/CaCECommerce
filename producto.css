@@ -1,0 +1,108 @@
+.contenido{
+    display: flex;
+padding: 8px 16px;
+flex-direction: column;
+align-items: center;
+gap: 8px;
+flex: 1 1 0;
+align-self: stretch;
+}
+
+p {
+    word-break: break-all;
+}
+.imagen-producto {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    max-width: 398px;
+}
+
+.contenedor-info-producto{
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.top-info-producto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+h1 {
+    color: #000;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.favorito-card{
+    flex-shrink: 0;
+    position: inherit;
+}
+
+.info-adicional{
+    display: flex;
+    margin: 8px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.encabezado-info{
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+.wrapper{
+    flex: 0 0 0;
+    align-items: flex-start;
+}
+@media screen and (min-width: 769px){
+    .contenido{
+        flex-direction: row;
+    }
+
+    .contenedor-info-producto{
+        max-width: calc(100% - 398px);
+        flex: 1 0 0;
+    }
+
+    .top-info-producto {
+        margin-top: 60px;
+    }
+
+    .precio-card {
+        font-size: 20px;
+    }
+    
+    .boton-card{
+        margin-top: 80px;
+    }
+    
+
+    .wrapper{
+        flex: 2 0 0;
+    }
+    
+}
